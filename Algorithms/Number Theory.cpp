@@ -38,7 +38,7 @@ void sieve()
         if(isprime[i])
         {
             prime.pb(i);
-            for(int j=i*i; j<MX; j+=i)
+            for(int j=i*2; j<MX; j+=i)
                 isprime[j]=false;
         }
     }

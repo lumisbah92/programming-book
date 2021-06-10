@@ -7,15 +7,11 @@ using namespace std;
 #define ll                long long
 #define pb                push_back
 #define pi                acos(-1.0)
-#define PQ                priority_queue
 #define mod               1000000007
 #define eps               1/1000000000
 #define pii               pair<int,int>
 #define pll               pair<ll,ll>
-#define endl              "\n"
 #define Fast              ios::sync_with_stdio(0) //cin.tie(0); cout.tie(0)
-#define bug(a)            cout<<#a<<":"<<a<<endl
-#define TC(tc)            cout<<"Case "<<tc++<<": "
 #define all(x)            (x).begin(),(x).end()
 #define allr(x)           (x).rbegin(),(x).rend()
 #define Mul(a,b)          (a%mod * b%mod)%mod
@@ -28,26 +24,25 @@ int main()
 {
     Fast;
 
-    ll t;
-    cin>>t;
-    while(t--)
-    {
-        ll n;
-        cin>>n;
-        string s;
-        cin>>s;
+    ll n;
+    cin>>n;
+    vector<ll>v(2*n);
+    for(auto &it:v)
+        cin>>it;
 
-        double d=0,k=0;
-        map<double,ll>mp;
-        for(int i=0; i<n; i++)
-        {
-            if(s[i]=='D')
-                d++;
-            else
-                k++;
-            mp[d/k]++;
-            cout<<mp[d/k]<<" ";
-        }
+    sort(all(v));
+    ll sum=0,sum1=0;
+    for(int i=0; i<n; i++)
+        sum+=v[i];
+    for(int i=n; i<2*n; i++)
+        sum1+=v[i];
+    
+    if(sum==sum1)
+    cout<<-1<<endl;
+    else
+    {
+        for(auto it:v)
+            cout<<it<<" ";
         cout<<endl;
     }
 
