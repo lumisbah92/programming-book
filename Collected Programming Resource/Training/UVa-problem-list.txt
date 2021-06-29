@@ -1,0 +1,170 @@
+                       STRING
+########################################################################################
+ 
+1        458    The Decoder    
+1        10260 Soundex
+2        11192    Group Reverse
+2        10082    WERTYU                
+2        483    Word Scramble
+2        10921    Find the Telephone
+3        10424    Love Calculator
+3        10252    Common Permutation
+5        10295    Hay Points
+ 
+                        AD-HOC
+########################################################################################
+1        11172    Relational Operators
+1        11547    Automatic Answer
+1        10783    Odd Sum
+1        10300 Ecological Premium
+1        10302 Summation of Polynomials
+1        11044    Searching For Nessy
+1        299    Train Swapping
+2        591    Box of Bricks
+2        10370    Above Average
+2        913   Joana and the Odd Numbers
+2        488    Triangle Wave
+2        10812    Beat the Spread
+2        11150    Cola
+2        10346    Peter's Smokes
+2        11332    Summing Digits
+3        11185    Ternary
+3        10922 2 the 9s
+3        10189    Mine Sweeper
+3        151    Power Crisis
+3        440    Eeny Meeny Moo
+ 
+M:
+3        11389    The Bus Driver Problem
+4        10194 Football (aka Soccer)
+ 
+                        PRIME
+########################################################################################
+ 
+1    160    Factors and Factorials
+1    10924    Prime Words
+2    583    Prime Factors
+2    10533    Digit Primes
+2    10948    The Primary Problem
+3    884    Factorial Factors
+4    914    Jumping Champion
+4    967    Circular
+ 
+                        GEOMETRY
+########################################################################################
+ 
+    10991    Region
+    190    Circle Through Three Points
+    10310    Dog and gopher
+    10432    Polygon Inside a Circle
+    11455    Behold My Quadrange
+    11646    Athletics Track
+    10297    Beavergnaw
+    10242    Fourth Point!!!
+    10221    Satellites
+    10195    Knights of the round table
+    10209    Is this Integration
+    11909 - Soya Milk
+ 
+ 
+                        BIGNUM
+########################################################################################
+ 
+1    10929    You can say 11
+1    10469    To Carry or not to Carry
+1    424    Integer Inquiry
+2    10013    Super long sums
+2    10070    Leap Year or Not Leap Year and ...
+3    10106    Product
+3    495    Fibonacci Freeze
+4    623    500!
+4    10220    I Love Big Numbers!
+ 
+ 
+                        GRAPH:
+########################################################################################
+ 
+1    10004    Bicoloring
+1    572    Oil Deposits
+1    (TJU)2469 Friends
+2    439    Knight Moves
+3    532    Dungeon Master
+3    821    Page Hopping
+5    11352    Crazy King
+6    11624    Fire!
+
+
+
+113 * EXPON 1
+458 * STRING 1
+10055 * EASY 1
+10071 * EASY 1
+10302 * N TH. 1
+10783 * N TH. 1
+10812 * EASY 1
+10970 * EASY 1
+11172 * EASY 1
+11547 * AD-HOC 1
+
+100 * EASY 2
+371 * EASY 2
+579 * GEOMETRY 2
+583 * N TH. 2
+694 * EASY 2
+10079 * N TH. 2
+10235 * N TH. 2
+10310 * GEOMERY 2
+11417 * N TH. 2
+11541 * STRING 2
+
+299 * SORTING 3
+382 * N TH. 3
+900 * N TH. 3
+10035 * N TH. 3
+10300 * N TH. 3
+10327 * SORTING 3
+10370 * AD-HOC 3
+10469 * Discrete math 3
+11185 * N TH. 3
+11479 * N TH. 3
+
+350 * N TH. 4
+494 * STRING 4
+10018 * N TH. 4
+10082 * STRING 4
+10346 * AD-HOC 4
+10424 * String 4
+10921 * EASY 4
+10922 * EASY 4
+10924 * EASY 4
+11388 * N TH. 4
+
+160 * N TH. 5
+369 * N TH. 5
+374 * N TH. 5
+591 * Ad-Hoc 5
+713 * N TH. 5
+834 * N TH. 5
+10019 * NUMBER TH. 5
+10038 * SORTING 5
+10696 * RECURSION 5
+11577 * STRING 5
+
+138 NUMBER TH. 6
+278 AD-HOC 6
+412 N TH. 6
+575 Base Con. 6
+10013 STRING 6
+10070 N TH. 6
+10179 N TH. 6
+10222 STRING 6
+11401 N TH. 6
+11554 N TH. 6
+
+190 GEOMETRY 7
+438 GEOMETRY 7
+10221 GEOMETRY 7
+10432 GEOMETRY 7
+10678 Geometry 7
+10773 GEOMETRY 7
+11401 GEOMETRY 7
