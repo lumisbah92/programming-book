@@ -26,7 +26,6 @@ int tc=1;
 /////////////////////////////////
 bool isprime[MX+5];
 vector<ll>prime;
-ll p=0;
 void sieve()
 {
     for(int i=0; i<MX; i++)

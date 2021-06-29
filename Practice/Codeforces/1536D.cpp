@@ -28,6 +28,51 @@ int main()
 {
     Fast;
 
+    ll t;
+    cin>>t;
+    while(t--)
+    {
+        ll n;
+        cin>>n;
+        ll b[n];
+        for(int i=0; i<n; i++)
+            cin>>b[i];
+
+        set<ll>st;
+        st.insert(b[0]);
+        ll last=b[0],ok=1;
+        for(int i=1; i<n; i++)
+        {
+            if(b[i]==last)
+                continue;
+
+            ll l=-INT_MAX,r=INT_MAX;
+            auto it=st.upper_bound(last);
+            if(it!=st.end())
+                r=*it;
+            it=st.lower_bound(last);
+            if(it!=st.begin())
+                it--,l=*it;
+
+            last=b[i];
+//            cout<<endl;
+//            bug(last);
+//            bug(l);
+//            bug(r);
+//            cout<<endl;
+            if(last<l || last>r)
+            {
+                ok=0;
+                break;
+            }
+            st.insert(last);
+        }
+
+        if(ok)
+            cout<<"YES\n";
+        else
+            cout<<"NO\n";
+    }
 
     return 0;
 }
