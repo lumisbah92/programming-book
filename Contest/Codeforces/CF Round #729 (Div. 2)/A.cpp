@@ -9,11 +9,11 @@ using namespace std;
 #define pi                acos(-1.0)
 #define PQ                priority_queue
 #define mod               1000000007
-#define eps               1/1000000000
+//#define eps               1/1000000000
 #define pii               pair<int,int>
 #define pll               pair<ll,ll>
 #define endl              "\n"
-#define Fast              ios::sync_with_stdio(0) //cin.tie(0); cout.tie(0)
+#define Fast              ios::sync_with_stdio(0); cin.tie(0); cout.tie(0)
 #define bug(a)            cout<<#a<<":"<<a<<endl
 #define TC(tc)            cout<<"Case "<<tc++<<": "
 #define all(x)            (x).begin(),(x).end()
@@ -32,20 +32,39 @@ int main()
     cin>>t;
     while(t--)
     {
-        ll n,m;
-        cin>>n>>m;
+        ll n,a,b;
+        cin>>n>>a>>b;
 
-        ll a[n+5];
-        for(int i=0; i<n; i++)
-            cin>>a[i];
+        ll ok=0;
+        while(n>0)
+        {
+            while(n>=a && n%a==0 && a>1)
+            {
+                n/=a;
+                if(n==1 || n%b==a || n%b==1)
+                {
+                    ok=1;
+                    break;
+                }
+            }
 
-        char c[n+5];
-        for(int i=0; i<n; i++)
-            cin>>c[i];
+            if(n==1 || n%b==a || n%b==1)
+            {
+                ok=1;
+                break;
+            }
 
+            if(ok)
+                break;
 
+            n-=b;
+        }
+
+        if(ok)
+            cout<<"Yes\n";
+        else
+            cout<<"No\n";
     }
 
     return 0;
 }
-

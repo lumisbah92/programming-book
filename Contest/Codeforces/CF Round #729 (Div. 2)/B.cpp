@@ -28,23 +28,6 @@ int main()
 {
     Fast;
 
-    ll t;
-    cin>>t;
-    while(t--)
-    {
-        ll n,m;
-        cin>>n>>m;
-
-        ll a[n+5];
-        for(int i=0; i<n; i++)
-            cin>>a[i];
-
-        char c[n+5];
-        for(int i=0; i<n; i++)
-            cin>>c[i];
-
-
-    }
 
     return 0;
 }
